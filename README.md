@@ -17,7 +17,5 @@ A Java rate limiter that limits the number of requests to a set value per rollin
 
 ## Limitations
 
-- Synchronization can reduce performance under high load.
 - The limit applies to one shared instance, not multiple JVMs.
-- I chose a rolling one-second window instead of a fixed one-second interval.
 
